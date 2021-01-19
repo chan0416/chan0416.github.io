@@ -1,0 +1,75 @@
+<!-- THIS THINGY TELLS BROWSER "HEY, IM HTML 5" -->
+<!DOCTYPE html>
+<!-- html starts here. I added the lang to set the default language of the html because the validator said to :( -->
+<html lang="en">
+<!--head starts here  -->
+	<head>
+		<!-- browser tab title -->
+		<title>Assignment 1</title>
+		<!-- meta tag that tells what character-set im using -->
+		<meta charset="utf-8">
+		<!-- meta tag description of document-->
+		<meta name="description" content="This is an HTML document of Assignment 1">
+		<!-- meta tag keywords -->
+		<meta name="keywords" content="Assignment, HTML, HTML5, Basic HTML">
+		<!-- beep boop, meta robot commands -->
+		<meta name="robots" content="noindex, nofollow">
+<!-- head ends here -->
+	</head>
+	<!-- body start -->
+	<body>
+		<!-- header starts here -->
+		<header>
+			<!-- heading, big text boi -->
+			<h1>Assignment 1</h1>
+<!-- header ends here -->
+		</header>
+		<!-- main starts here -->
+		<main>
+			<!-- main section, section explanation below -->
+			<section>
+				<!-- i put the heading here because validator said to :(. I'm keeping the header here instead of the article because technically this heading is for the section  -->
+				<h2>This is the main Section</h2>
+				<!-- article explanation below -->
+				<article>
+					<!-- div  -->
+					<div>I am a div</div>
+					<!-- paragraph -->
+					<p>I am a paragraph</p>
+					<p>This paragraph has a <br>Break</p>
+				</article>
+			</section>
+			<!-- section is actually just a container, its what is inside that counts-->
+			<section>
+				<!-- refer to previous heading explanation on why this is here instead of inside the article -->
+				<h3>This is a section</h3>
+				<!-- article is used to create content/text for html document -->
+				<article>
+					<!-- did you mean to put in 'an'? -->
+					<!-- div is a container block level element, which can contain inline elements. Remember that p can't contain inline elements, but div can. aside is for less important stuff. I used div twice (a div inside a div) because the validator said you can't use aside in span, even though it displayed correctly. damn you w3 validator!!!-->
+					<div>This is important part of an section<br><div><aside>This is the less important part of the section</aside></div></div>
+					<h4>Some links in a Div</h4>
+					<!-- what &nbsp; does is make a non-breaking space between stuff. thank you google -->
+					<div><a href="https://www.google.com" title="Google">Google Link</a>&nbsp;<a href="https://www.amazon.com/" title="Amazon">Amazon Link</a></div>
+					<h5>Some Lists in a Div</h5>
+					<div>
+						<ul>
+							<li>Unordered List Element 1</li>
+							<li>Unordered List Element 2</li>
+							<li>Unordered List Element 3</li>
+						</ul>
+						<ol>
+							<li>Ordered list Element 1</li>
+							<li>Ordered list Element 2</li>
+							<li>Ordered list Element 3</li>
+						</ol>
+					</div>
+				</article>
+			</section>
+
+		</main>
+		<footer>
+			<p>This is the footer</p>
+		</footer>
+	</body>
+</html>
